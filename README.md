@@ -7,7 +7,7 @@ I used Windows 8.1, since I was receiving error on Ubuntu 18.04 LTS reported [he
 <img src="./images/version.png">
 
 2. Built the configuration File as [fluent-basic](/fluent-basic.conf)
-I have used the required easy format to not to overload this file by opening different [input.conf](/input.conf) and 
+I have used the required easy format to not to overload this file by including different [input.conf](/input.conf) and 
 [output.conf](/output.conf)
 
 

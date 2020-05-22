@@ -17,3 +17,37 @@ I have used the required easy format to not to overload this file by including d
 
 4. Streams are visible and port listening of 445 is also visible at 
 <img src="./images/port_listening.png">
+
+5. ```CMD``` output after ```curl -s http://127.0.0.1:445 | jq``` was
+
+```
+{
+  "fluent-bit": {
+    "version": "1.4.1",
+    "edition": "Community",
+    "flags": [
+      "FLB_HAVE_PARSER",
+      "FLB_HAVE_RECORD_ACCESSOR",
+      "FLB_HAVE_STREAM_PROCESSOR",
+      "FLB_HAVE_TLS",
+      "FLB_HAVE_SIGNV4",
+      "FLB_HAVE_SQLDB",
+      "FLB_HAVE_METRICS",
+      "FLB_HAVE_HTTP_SERVER",
+      "FLB_HAVE_FORK",
+      "FLB_HAVE_TIMESPEC_GET",
+      "FLB_HAVE_GMTOFF",
+      "FLB_HAVE_UNIX_SOCKET",
+      "FLB_HAVE_PROXY_GO",
+      "FLB_HAVE_SYSTEM_STRPTIME",
+      "FLB_HAVE_LIBBACKTRACE",
+      "FLB_HAVE_REGEX",
+      "FLB_HAVE_UTF8_ENCODER",
+      "FLB_HAVE_LUAJIT",
+      "FLB_HAVE_C_TLS",
+      "FLB_HAVE_ACCEPT4",
+      "FLB_HAVE_INOTIFY"
+    ]
+  }
+}
+```

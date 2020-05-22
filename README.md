@@ -1,7 +1,7 @@
 # fluent-bit-config
 A small implementation of fluent-bit on my system
 
-I used Windows package, since I was receiving error on Ubuntu 18.04 LTS reported [here](https://github.com/fluent/fluent-bit/issues/2194)
+I used Windows 8.1, since I was receiving error on Ubuntu 18.04 LTS reported [here](https://github.com/fluent/fluent-bit/issues/2194)
 
 1. Check the version.
 <img src="./images/version.png">

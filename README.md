@@ -23,7 +23,7 @@ I have used the required easy format to not to overload this file by including d
 ```
 {
   "fluent-bit": {
-    "version": "1.4.1",
+    "version": "1.4.4",
     "edition": "Community",
     "flags": [
       "FLB_HAVE_PARSER",
